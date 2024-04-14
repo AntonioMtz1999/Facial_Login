@@ -42,8 +42,8 @@ Tx1 = Label(interfaz, text="Usuario", fg="White", font=("Arial", 20), bg="#002C6
 
 cTexto = tk.Entry(interfaz, font=("Arial",16))
 cTexto.place(x=100, y=310)
-b1 = tk.Button(interfaz, text="Iniciar\nReconocimiento", width=13, height=2, 
+b1 = tk.Button(interfaz, text="Iniciar\nreconocimiento", width=13, height=2, 
     bg="#EF7F01", font=("Arial Black",12), borderwidth=5, command=AbrirRec) ##EF7F01 para el color naranja, #002C65 para el color azul
-b1.place(x=200, y=400)
+b1.place(x=200, y=370)
 
 input()
