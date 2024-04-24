@@ -45,11 +45,11 @@ img2.image = render
 img2.place(x=555, y=0)
 
 """
-*******************************************
+********************************************
 Implementacion de elementos
 en la interfaz
 Botones, Input, Labels, etc.
-*******************************************
+********************************************
 """
 Tx1 = Label(interfaz, text="Usuario", fg="White", font=("Arial", 20), bg="#002C65").place(x=100, y=270) #fg es para el color del texto
 
